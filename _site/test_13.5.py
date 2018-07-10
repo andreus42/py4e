@@ -25,8 +25,8 @@ Take a look at the Python ElementTree documentation and look for the supported X
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 
-# serviceurl = 'http://py4e-data.dr-chuck.net/comments_42.xml'
-serviceurl = 'http://py4e-data.dr-chuck.net/comments_100093.xml'
+serviceurl = 'http://py4e-data.dr-chuck.net/comments_42.json'
+# serviceurl = 'http://py4e-data.dr-chuck.net/comments_100094.json'
 
 count = 0
 total = 0
